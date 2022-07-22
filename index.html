@@ -4,141 +4,241 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luciano Villalba Dev</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <title>Luciano Villalba Dev</title>
 </head>
 <body>
-    <header>
-        <div class="hero"> 
-                <div class="navbar" id="home">
-                    <nav>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#briefcase">Portafolio</a></li>
-                            <li><a href="#about">Sobre mí</a></li>
+    <!-- Inicio-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>|Lucho Dev|</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
                         </ul>
                     </nav>
+                    <!--iconos del menu responsive-->
+                    <div id="icono-nav">
+                        <i class="bi bi-list"></i>
+                    </div>
+
+                    <!--iconos de las redes sociales-->
+                    <div class="redes">
+                        <a href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </div>
                 </div>
-                <img src="assets/img/fondo.gif" alt="">
-        </div>
-        <div class="profile" >
-            <div class="square"></div>
-            <div class="circle-trans"></div>
-            <div class="circle"></div>
-            <div class="profile-img"><img src="assets/img/profile.png" alt=""></div>
-            <div class="square-text">Luciano Villalba</div>
-            <div class="square-text-2"><span>Web Developer</span></div>
-            <div class="contact-icon">
-                <a href="https://github.com/Luchovilla7"><img src="assets/img/github.svg" alt=""></a>
-                <a href="https://www.linkedin.com/in/luciano-villalba-a744961b7/"><img src="assets/img/linkedin.svg" alt=""></a>
-                <a href="#"><img src="assets/img/message.svg" alt=""></a>
-            </div>
-            <div class="square-text-3"><a href="#about-me"><span>About me |</span> Sobre mí</a></div>
-        </div>
-    
-    </header>
-    
-    <section class="briefcase" id="briefcase">
-        <div class="briefcase-section container">
-            <h2><span>Briefcase |</span> Portafolio</h2>
-            <div class="briefcase-grid">
-                <div><a href="https://luchovilla7.github.io/mi-portafolio/" target="_blank"><img src="assets/img/portfolio.png" alt=""></a></div>
-                <div><a href="https://modoactivo.online" target="_blank"><img src="assets/img/modo-activo-web.png" alt=""></a></div>
-                <div><a href="https://ramsesartedibujo.com" target="_blank"><img src="assets/img/ramses-web.png" alt=""></a></div>
-                <div><a href="https://luchovilla7.github.io/agencia-digital/" target="_blank"><img src="assets/img/agencia-template.png" alt=""></a></div>
-                <div><a href="https://luchovilla7.github.io/proyecto-final/" target="_blank"><img src="assets/img/market-mision.png" alt=""></a></div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Luciano Villalba</span>, Desarrollador Web</h2>
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsa sequi accusamus sit beatae eum soluta, neque porro animi minima at optio voluptates voluptate ad nulla doloremque recusandae, labore dolores!</p>
+                <a href="#portfolio">Ir a Posrtafolio</a>
             </div>
         </div>
     </section>
 
-    <section class="skills">
-        <div class="skill container">
-            <div class="knowledge-part">
-                <h2><span>Knowledge |</span> Conocimientos</h2>
-                <div class="knowledge">
-                    <div>
-                        <img src="assets/img/html-icon.png" alt="">
-                        <h3>HTML</h3>
-                    </div>
-                    <div>
-                        <img src="assets/img/css-icon.png" alt="">
-                        <h3>CSS</h3>
-                    </div>
-                    <div>
-                        <img src="assets/img/js-icon.png" alt="">
-                        <h3>JAVASCRIPT</h3>
-                    </div>
-                    <div>
-                        <img src="assets/img/bootstrap.png" alt="">
-                        <h3>BOOTSTRAP</h3>
-                    </div>
-                    <div>
-                        <img src="assets/img/sass-icon.png" alt="">
-                        <h3>SASS</h3>
-                    </div>
-                    <div>
-                        <img src="assets/img/wordpress-icon.png" alt="">
-                        <h3>WORDPRESS</h3>
-                    </div>
-                    <div>
-                        <img src="assets/img/elementor-icon.png" alt="">
-                        <h3>ELEMENTOR</h3>
-                    </div>
-                    <div>
-                        <img src="assets/img/woo-icon.png" alt="">
-                        <h3>WOOCOMMERCE</h3>
-                    </div>
+    <!--seccción sobre mí-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="assets/img/yo.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mí</p>
+            <h2>Hola, soy <span>Luciano Villalba</span></h2>
+            <h3>Desarrollador Web</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reiciendis dicta officiis repellendus, id aliquam et iusto similique perferendis consectetur dignissimos earum velit cumque tempora nisi quasi rerum consequatur sed?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, consectetur!</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="bi bi-code-slash"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi est, natus, quod iste officia totam saepe quo voluptatum nihil nam porro. Nostrum minima ad rerum eos velit sit deleniti.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="bi bi-code-slash"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi est, natus, quod iste officia totam saepe quo voluptatum nihil nam porro. Nostrum minima ad rerum eos velit sit deleniti.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="bi bi-code-slash"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi est, natus, quod iste officia totam saepe quo voluptatum nihil nam porro. Nostrum minima ad rerum eos velit sit deleniti.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--sección skills-->
+    <div class="contenedor-skills" id="skills">
+        <h3>SKILLS</h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>PHP</p>
+                <span class="porcentaje">75%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ph"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Wordpress</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="wp"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--sección de portfolio-->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://modoactivo.online"><img src="assets/img/modo-activo-web.png" alt=""></a>
+                <div class="info">
+                    <h4>Asesoría Financiera Modo Activo</h4>
+                    <p>Diseño Web</p>
                 </div>
             </div>
-            <div class="tools-part">
-                <h2><span>Dev Tools |</span> Herramientas</h2>
-                <div class="tools">
-                    <div>
-                        <img src="assets/img/vsc-icon.png" alt="">
-                        <h3>VS CODE</h3>
-                    </div>
-                    <div>
-                        <img src="assets/img/git-icon.png" alt="">
-                        <h3>GIT</h3>
-                    </div>
-                    <div>
-                        <img src="assets/img/github-icon.png" alt="">
-                        <h3>GITHUB</h3>
-                    </div>
-                    <div>
-                        <img src="assets/img/npm-icon.png" alt="">
-                        <h3>NPM</h3>
-                    </div>
-                    <div>
-                        <img src="assets/img/webpack-icon.png" alt="">
-                        <h3>WEBPACK</h3>
-                    </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://ramsesartedibujo.com"><img src="assets/img/ramses-web.png" alt=""></a>
+                <div class="info">
+                    <h4>Postafolio Ramses Arte Dibujo</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://luchovilla7.github.io/agencia-digital/"><img src="assets/img/agencia-template.png" alt=""></a>
+                <div class="info">
+                    <h4>Digital Agency Template</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://luchovilla7.github.io/proyecto-final/"><img src="assets/img/market-mision.png" alt=""></a>
+                <div class="info">
+                    <h4>Digital Agency Market Mision</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <!--<div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/img/market-mision.png" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/img/market-mision.png" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>-->
+        </div>
+    </section>
+    <!--sección de contacto-->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
                 </div>
 
-            </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
         </div>
     </section>
-    <section class="about" id="about">
-        <div class="about-flex container">
-            <div class="about-info">
-                <p>
-                    Soy desarrollador Web y aficionado en seguir aprendiendo todo sobre códigos. Mi impulso es poder comprender el contexto tecnológico en el que vivo y cómo desde mi lugar poder mejorarlo. Todo comenzó en algo que yo llamo "Amor a primer código💙". Venía manejando la lógica de programación con pseudocódigo, pero de repente me cruzé con HTML & CSS, lenguajes pero nó de programación sino que de maquetado y estilos. Me metí en algo que me hizo contemplar su utilidad, y como si fuera poco, siguiendo esta ruta amorosa, me encuentré por primera vez con un lenguaje de programación ¡y vaya lenguaje! el querido Javascript con funcionalidades inmensas y muy dinámicas, desde allí supe que no quería hacer otra cosa más que dedicarme al desarrollo web y todas sus tecnologías, siguiendo con React Js y tambien adentrándome en el mundo de la programación Backend.</p><p> ¡Asi que Hola Mundo 🙋🏼‍♂️ y Muchas Gracias por visitar mi Portafolio! 🙌
-                </p>
-            </div>
-            <div class="social">
-                <a href="https://github.com/Luchovilla7"><img src="assets/img/github.svg" alt=""></a>
-                <a href="https://www.linkedin.com/in/luciano-villalba-a744961b7/"><img src="assets/img/linkedin.svg" alt=""></a>
-                <a href=""><img src="assets/img/youtube.svg" alt=""></a>
-                <a href=""><img src="assets/img/message.svg" alt=""></a>
-            </div>
-        </div>
-    </section>
+    <!--sección de footer-->
     <footer>
-        <div class="container"></div>
-        <p>&copy; 2022 Copyright | Designed by Luciano Villalba</p>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-github"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
