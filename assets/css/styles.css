@@ -100,7 +100,7 @@ html{
 }
 
 #inicio .contenido .presentacion h2 span{
-    font-size: 35px;
+    font-size: 40px;
     color: #0078d7;
 }
 
@@ -129,7 +129,7 @@ html{
     background-color: #0078d7;
 }
 
-#icon-nav{
+#icono-nav{
     color: #fff;
     display: none;
 }
@@ -262,6 +262,7 @@ html{
     padding: 20px;
     margin-bottom: 25px;
 }
+
 
 #servicios .fila .servicio hr{
     width: 30%;

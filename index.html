@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Luciano Villalba Dev</title>
 </head>
 <body>
@@ -26,22 +25,19 @@
                     </nav>
                     <!--iconos del menu responsive-->
                     <div id="icono-nav" onclick="responsiveMenu()">
-                        <i class="bi bi-list"></i>
+                        <i class="fa-solid fa-bars"></i>
                     </div>
 
                     <!--iconos de las redes sociales-->
                     <div class="redes">
                         <a href="#">
-                            <i class="bi bi-linkedin"></i>
+                            <i class="fa-brands fa-linkedin"></i>
                         </a>
                         <a href="#">
-                            <i class="bi bi-instagram"></i>
+                            <i class="fa-brands fa-instagram"></i>
                         </a>
                         <a href="#">
-                            <i class="bi bi-envelope"></i>
-                        </a>
-                        <a href="#">
-                            <i class="bi bi-github"></i>
+                            <i class="fa-brands fa-github"></i>
                         </a>
                     </div>
                 </div>
@@ -73,35 +69,35 @@
         <h3 class="titulo-seccion">MIS SERVICIOS</h3>
         <div class="fila">
             <div class="servicio">
-                <span class="icono"><i class="bi bi-code-slash"></i></span>
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
                 <h4>Diseño de Sitios Web</h4>
                 <hr>
                 <ul class="servicios">
                     <li>Web</li>
-                    <li>Graphic</li>
+                    <li>Diseño</li>
                     <li>SEO</li>
                 </ul>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi est, natus, quod iste officia totam saepe quo voluptatum nihil nam porro. Nostrum minima ad rerum eos velit sit deleniti.</p>
             </div>
             <div class="servicio">
-                <span class="icono"><i class="bi bi-code-slash"></i></span>
-                <h4>Diseño de Sitios Web</h4>
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Alojamiento Web</h4>
                 <hr>
                 <ul class="servicios">
                     <li>Web</li>
-                    <li>Graphic</li>
-                    <li>SEO</li>
+                    <li>Almacenamiento</li>
+                    <li>Control funcional</li>
                 </ul>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi est, natus, quod iste officia totam saepe quo voluptatum nihil nam porro. Nostrum minima ad rerum eos velit sit deleniti.</p>
             </div>
             <div class="servicio">
-                <span class="icono"><i class="bi bi-code-slash"></i></span>
-                <h4>Diseño de Sitios Web</h4>
+                <span class="icono"><i class="fa-solid fa-globe"></i></span>
+                <h4>Mantenimiento Web</h4>
                 <hr>
                 <ul class="servicios">
                     <li>Web</li>
-                    <li>Graphic</li>
-                    <li>SEO</li>
+                    <li>Edición</li>
+                    <li>Gestión y control</li>
                 </ul>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi est, natus, quod iste officia totam saepe quo voluptatum nihil nam porro. Nostrum minima ad rerum eos velit sit deleniti.</p>
             </div>
@@ -213,16 +209,16 @@
     <section id="contacto">
         <h3 class="titulo-seccion">Contactanos ahora</h3>
         <div class="contenedor-form">
-            <form action="">
+            <form action="assets/form/form.php" method="POST">
                 <div class="fila mitad">
-                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
-                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                    <input name="name" type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input name="email" type="email" placeholder="Dirección de Email" class="input-mitad">
                 </div>
                 <div class="fila">
-                    <input type="text" placeholder="Tema..." class="input-full">
+                    <input name="asunto" type="text" placeholder="Tema..." class="input-full">
                 </div>
                 <div class="fila">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                    <textarea name="textarea" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
                 </div>
 
                 <input type="submit" value="Enviar Mensaje" class="btn-enviar">
@@ -233,11 +229,10 @@
     <footer>
         <p>Todos los derechos reservados - 2022</p>
         <div class="redes">
-            <a href="#"><i class="bi bi-linkedin"></i></a>
-            <a href="#"><i class="bi bi-github"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
         </div>
-
     </footer>
     <script src="assets/js/script.js"></script>
 </body>
